@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10
+11    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+11-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-77
+11-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:24-74
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-65
+13-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-62
+14
+15    <uses-feature android:glEsVersion="0x00030000" />
+15-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+15-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+16    <uses-feature
+16-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-91
+17        android:name="android.hardware.vulkan.version"
+17-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+18        android:required="false" />
+18-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:64-88
+19    <uses-feature
+19-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-88
+20        android:name="android.hardware.touchscreen"
+20-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-60
+21        android:required="false" />
+21-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:61-85
+22    <uses-feature
+22-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-71
+24        android:required="false" />
+24-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:72-96
+25    <uses-feature
+25-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-80
+27        android:required="false" />
+27-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:81-105
+28    <uses-feature
+28-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-111
+29        android:name="android.hardware.vr.headtracking"
+29-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-64
+30        android:required="true"
+30-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:65-88
+31        android:version="1" />
+31-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:89-108
+32
+33    <application android:extractNativeLibs="true" >
+33-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-31:17
+33-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+34        <meta-data
+34-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+35            android:name="unity.splash-mode"
+35-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+36            android:value="0" />
+36-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+37        <meta-data
+37-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+38            android:name="unity.splash-enable"
+38-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+39            android:value="True" />
+39-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+40        <meta-data
+40-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-78
+41            android:name="unity.launch-fullscreen"
+41-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-54
+42            android:value="True" />
+42-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:55-75
+43        <meta-data
+43-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+44            android:name="unity.allow-resizable-window"
+44-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-59
+45            android:value="False" />
+45-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:60-81
+46        <meta-data
+46-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+47            android:name="notch.config"
+47-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+48            android:value="portrait|landscape" />
+48-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+49
+50        <activity
+50-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-25:16
+51            android:name="com.unity3d.player.UnityPlayerActivity"
+51-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:15-68
+52            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+52-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:204-313
+53            android:exported="true"
+53-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:385-408
+54            android:hardwareAccelerated="false"
+54-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:349-384
+55            android:launchMode="singleTask"
+55-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:172-203
+56            android:resizeableActivity="false"
+56-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:314-348
+57            android:screenOrientation="landscape"
+57-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:134-171
+58            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+58-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:69-133
+59            <intent-filter>
+59-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:7-21:23
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-69
+60-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:19-66
+61
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-61
+62-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-58
+63
+64                <category android:name="com.oculus.intent.category.VR" />
+64-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-66
+64-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-63
+65            </intent-filter>
+66
+67            <meta-data
+67-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-82
+68                android:name="unityplayer.UnityActivity"
+68-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:18-58
+69                android:value="true" />
+69-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:59-79
+70            <meta-data
+70-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:7-70
+71                android:name="notch_support"
+71-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:18-46
+72                android:value="true" />
+72-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:47-67
+73            <meta-data
+73-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-81
+74                android:name="com.oculus.vr.focusaware"
+74-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:18-57
+75                android:value="true" />
+75-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:58-78
+76        </activity>
+77
+78        <meta-data
+78-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-97
+79            android:name="com.samsung.android.vr.application.mode"
+79-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:16-70
+80            android:value="vr_only" />
+80-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:71-94
+81        <meta-data
+81-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:5-91
+82            android:name="com.unity.xr.oculus.LowOverheadMode"
+82-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:16-66
+83            android:value="false" />
+83-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:67-88
+84        <meta-data
+84-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:5-88
+85            android:name="com.unity.xr.oculus.LateLatching"
+85-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:16-63
+86            android:value="false" />
+86-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:64-85
+87        <meta-data
+87-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:5-93
+88            android:name="com.unity.xr.oculus.LateLatchingDebug"
+88-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:16-68
+89            android:value="false" />
+89-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:69-90
+90        <meta-data
+90-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:5-90
+91            android:name="com.oculus.supportedDevices"
+91-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:16-58
+92            android:value="quest|quest2" />
+92-->D:\Unity\DemoForStudentsROC\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:59-87
+93    </application>
+94
+95</manifest>
