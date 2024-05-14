@@ -15,7 +15,7 @@ D:/Repo/Pit/StudentsProject/DemoForStudentsROC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50033
+63382
 Successfully changed project path to: D:/Repo/Pit/StudentsProject/DemoForStudentsROC
 D:/Repo/Pit/StudentsProject/DemoForStudentsROC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Repo/Pit/StudentsProject/DemoForStudentsROC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [37364] Host "[IP] 192.168.68.1 [Port] 0 [Flags] 2 [Guid] 513178753 [EditorId] 513178753 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [54536] Host "[IP] 169.254.187.147 [Port] 0 [Flags] 2 [Guid] 2134542607 [EditorId] 2134542607 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [37364] Host "[IP] 192.168.68.1 [Port] 0 [Flags] 2 [Guid] 513178753 [EditorId] 513178753 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [54536] Host "[IP] 169.254.187.147 [Port] 0 [Flags] 2 [Guid] 2134542607 [EditorId] 2134542607 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 86.34 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 2.33 ms.
+Refreshing native plugins compatible for Editor in 11.47 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Repo/Pit/StudentsProject/DemoForStudentsROC/Assets
@@ -67,46 +67,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.388448 seconds.
-- Loaded All Assemblies, in  6.189 seconds
+Registered in 0.012449 seconds.
+- Loaded All Assemblies, in  0.404 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 357 ms
+Android Extension - Scanning For ADB Devices 396 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.794 seconds
+- Finished resetting the current domain, in  0.725 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5279ms)
-		BeginReloadAssembly (4403ms)
+	ReloadAssembly (235ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (4400ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (900ms)
-				TypeCache.Initialize (899ms)
-					TypeCache.ScanAssembly (897ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (158ms)
+				TypeCache.Initialize (157ms)
+					TypeCache.ScanAssembly (155ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (735ms)
+			SetupLoadedEditorAssemblies (656ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (573ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (502ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  4.167 seconds
-Refreshing native plugins compatible for Editor in 6.26 ms, found 12 plugins.
+- Loaded All Assemblies, in  1.034 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -147,44 +147,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.686 seconds
+- Finished resetting the current domain, in  0.638 seconds
 Domain Reload Profiling:
-	ReloadAssembly (231ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (258ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		LoadAllAssembliesAndSetupDomain (3929ms)
-			LoadAssemblies (3152ms)
+			CreateAndSetChildDomain (29ms)
+		LoadAllAssembliesAndSetupDomain (771ms)
+			LoadAssemblies (348ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (837ms)
-				TypeCache.Initialize (674ms)
-					TypeCache.ScanAssembly (668ms)
-				ResolveRequiredComponents (5ms)
+			SetupTypeCache (486ms)
+				TypeCache.Initialize (315ms)
+					TypeCache.ScanAssembly (309ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (496ms)
+			SetupLoadedEditorAssemblies (450ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (3ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 8.14 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4152 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (53.9 KB). Loaded Objects now: 4647.
-Memory consumption went from 0.63 GB to 0.63 GB.
-Total: 4.948800 ms (FindLiveObjects: 0.555700 ms CreateObjectMapping: 0.321800 ms MarkObjects: 3.936200 ms  DeleteObjects: 0.133200 ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 10.04 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (53.8 KB). Loaded Objects now: 4649.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 8.774200 ms (FindLiveObjects: 0.974000 ms CreateObjectMapping: 0.906800 ms MarkObjects: 6.682600 ms  DeleteObjects: 0.207900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -200,334 +200,590 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4331.322028 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit
-  artifactKey: Guid(1eff700fb4091ff4d911899e151febda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit using Guid(1eff700fb4091ff4d911899e151febda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7c93ee1c23b6487a982c486cde2174') in 0.002019 seconds 
+  Time since last request: 23614.716931 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png
+  artifactKey: Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png using Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82c203ea4599df6527b3d9034afa431') in 0.132330 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Import Request.
-  Time since last request: 1.223523 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models
-  artifactKey: Guid(49d647fc1c40485418a1cd45233f0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models using Guid(49d647fc1c40485418a1cd45233f0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684bb5e6f819333ca401426ba46ab108') in 0.000907 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.579 seconds
+Refreshing native plugins compatible for Editor in 8.33 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (422ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		LoadAllAssembliesAndSetupDomain (1151ms)
+			LoadAssemblies (601ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+				TypeCache.Initialize (478ms)
+					TypeCache.ScanAssembly (469ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 19.26 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4130 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (47.1 KB). Loaded Objects now: 4657.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 11.942500 ms (FindLiveObjects: 0.776000 ms CreateObjectMapping: 0.234300 ms MarkObjects: 10.659100 ms  DeleteObjects: 0.270000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 4.736866 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/GLB format
-  artifactKey: Guid(140d2fffecbe3c5459398d1e4e2dba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/GLB format using Guid(140d2fffecbe3c5459398d1e4e2dba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3f911fe58b1cb1e9e4d25acd5b9415') in 0.000364 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.015 seconds
+Refreshing native plugins compatible for Editor in 6.41 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (255ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		LoadAllAssembliesAndSetupDomain (757ms)
+			LoadAssemblies (341ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+				TypeCache.Initialize (323ms)
+					TypeCache.ScanAssembly (316ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 15.37 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (54.4 KB). Loaded Objects now: 4661.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 6.394400 ms (FindLiveObjects: 0.789300 ms CreateObjectMapping: 0.480700 ms MarkObjects: 5.011800 ms  DeleteObjects: 0.110400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 10.084313 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format
-  artifactKey: Guid(32b293a71d07cdf47ac2e15cfc5c0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format using Guid(32b293a71d07cdf47ac2e15cfc5c0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd0558901ece335ed89d6edfd096f32') in 0.000650 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.961 seconds
+Refreshing native plugins compatible for Editor in 8.30 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (252ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		LoadAllAssembliesAndSetupDomain (707ms)
+			LoadAssemblies (283ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+				TypeCache.Initialize (319ms)
+					TypeCache.ScanAssembly (311ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 18.36 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (54.4 KB). Loaded Objects now: 4665.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 4.465900 ms (FindLiveObjects: 0.480600 ms CreateObjectMapping: 0.129500 ms MarkObjects: 3.656100 ms  DeleteObjects: 0.197500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.085425 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/arrow.obj
-  artifactKey: Guid(9e0d1804278aac7418c76a634ace4327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/arrow.obj using Guid(9e0d1804278aac7418c76a634ace4327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119de2a627ea9daf15478d93aa3c3f77') in 0.212976 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.860 seconds
+Refreshing native plugins compatible for Editor in 6.55 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (225ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		LoadAllAssembliesAndSetupDomain (633ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+				TypeCache.Initialize (295ms)
+					TypeCache.ScanAssembly (289ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 10.86 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (54.3 KB). Loaded Objects now: 4669.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 5.661500 ms (FindLiveObjects: 0.558900 ms CreateObjectMapping: 0.175600 ms MarkObjects: 4.766700 ms  DeleteObjects: 0.158600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-long-sides.obj
-  artifactKey: Guid(36d192c549ae3df418ed28873f57fa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-long-sides.obj using Guid(36d192c549ae3df418ed28873f57fa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd183f96057b2fb95b10acfed4e272908') in 0.043306 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.866 seconds
+Refreshing native plugins compatible for Editor in 9.56 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (223ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (640ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+				TypeCache.Initialize (295ms)
+					TypeCache.ScanAssembly (289ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 11.34 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (54.3 KB). Loaded Objects now: 4673.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 7.487300 ms (FindLiveObjects: 0.763700 ms CreateObjectMapping: 0.676200 ms MarkObjects: 5.893700 ms  DeleteObjects: 0.151100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars.obj
-  artifactKey: Guid(af8d0829fbb69b743a6f4de19bdbfdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars.obj using Guid(af8d0829fbb69b743a6f4de19bdbfdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49596bd0978c5c0adb9a6f0b492cb0d3') in 0.049986 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.886 seconds
+Refreshing native plugins compatible for Editor in 9.96 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (223ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		LoadAllAssembliesAndSetupDomain (659ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+				TypeCache.Initialize (298ms)
+					TypeCache.ScanAssembly (292ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 12.46 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (54.4 KB). Loaded Objects now: 4677.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 6.631300 ms (FindLiveObjects: 0.777300 ms CreateObjectMapping: 0.569500 ms MarkObjects: 5.179500 ms  DeleteObjects: 0.102200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-fence.obj
-  artifactKey: Guid(4c0f87c9eea8f8045a92ad94a9cdd622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-fence.obj using Guid(4c0f87c9eea8f8045a92ad94a9cdd622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42884384d818f0c30b7fe7de3f03a7b2') in 0.046654 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe.obj
-  artifactKey: Guid(deaca59621e6557498cbe7a76f2b1c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe.obj using Guid(deaca59621e6557498cbe7a76f2b1c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d28efa3c25b29be77945464a6ecb8b') in 0.039025 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-high.obj
-  artifactKey: Guid(8a5fa78529edb224097e65d087d68873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-high.obj using Guid(8a5fa78529edb224097e65d087d68873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e474feaa36fb87dd7ff580882eb154d1') in 0.032112 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/box-large.obj
-  artifactKey: Guid(7bc0ba2c8af305845b821af439cad45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/box-large.obj using Guid(7bc0ba2c8af305845b821af439cad45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6196df0f29496d3da3c9f500e5f06dbd') in 0.026491 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/box-small.obj
-  artifactKey: Guid(71f86d191d218734a9be1d919e65f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/box-small.obj using Guid(71f86d191d218734a9be1d919e65f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c09d8ffe467e17b1844704d78310bde') in 0.028230 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-side.obj
-  artifactKey: Guid(667807f8acfd3b946bd9a65bfa07dc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-bars-stripe-side.obj using Guid(667807f8acfd3b946bd9a65bfa07dc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731dfca8bd2eb0fdf1973aeabb81acbc') in 0.027154 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.830591 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-long-stripe-sides.obj
-  artifactKey: Guid(6a35ede87c6cf624eb2b888b123d14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-long-stripe-sides.obj using Guid(6a35ede87c6cf624eb2b888b123d14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b81e28ca5283fb137c3fec1b1162ef9') in 0.024648 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover.obj
-  artifactKey: Guid(5b7b4b6c162d2ca40bf44d2049836664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover.obj using Guid(5b7b4b6c162d2ca40bf44d2049836664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b948a6452d659286e254c8cadec194f6') in 0.026033 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-stripe-sides.obj
-  artifactKey: Guid(07596c6267e25d94eb4cd1d1aaad70a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/conveyor-stripe-sides.obj using Guid(07596c6267e25d94eb4cd1d1aaad70a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756f548e3cd12668cf20c40c2de71c4f') in 0.027367 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-corner.obj
-  artifactKey: Guid(d38913f89ef62cf4682779b0ebd99934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-corner.obj using Guid(d38913f89ef62cf4682779b0ebd99934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6371d3ff262278f331b60f628f4bddc') in 0.027809 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-hopper.obj
-  artifactKey: Guid(f3639188c33ac0a499501f4f04a62e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-hopper.obj using Guid(f3639188c33ac0a499501f4f04a62e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dff5b6502503f53ac6d6aff1124fbde') in 0.023825 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.021002 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-stripe-bar.obj
-  artifactKey: Guid(07ec5af2be2705e43a7f8cf98a6735f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-stripe-bar.obj using Guid(07ec5af2be2705e43a7f8cf98a6735f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ec3691e73a91f85e756f747deedbb6') in 0.025275 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-stripe-hopper.obj
-  artifactKey: Guid(4ddaedf0adbaac14fa1b7eff676559ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-stripe-hopper.obj using Guid(4ddaedf0adbaac14fa1b7eff676559ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd02e5a0e496e2077200c90a30c0379a') in 0.025728 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 3.841938 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-window.obj
-  artifactKey: Guid(15b0e64854716e240aee66216ae2b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/cover-window.obj using Guid(15b0e64854716e240aee66216ae2b9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58288c20087ccf5688f9506703e5c882') in 0.034541 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.028962 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/door-wide-half.obj
-  artifactKey: Guid(d0cb7da9803baa04db2954d88bf2b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/door-wide-half.obj using Guid(d0cb7da9803baa04db2954d88bf2b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd19b71eee18416f4659d8b3c4b4aca') in 0.034298 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/floor.obj
-  artifactKey: Guid(f46ff2fbfa4a63b48bba0ed6b4cf9354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/floor.obj using Guid(f46ff2fbfa4a63b48bba0ed6b4cf9354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c65191d92ba281b081ccb99b54491a8') in 0.038835 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.660308 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/robot-arm-b.obj
-  artifactKey: Guid(dc961ad1109ee514eace39bb72be8d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/robot-arm-b.obj using Guid(dc961ad1109ee514eace39bb72be8d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de39e175bdee53a2e7865352ef77c45e') in 0.123012 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-high.obj
-  artifactKey: Guid(4401a5f717036684382960bd2b02b1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-high.obj using Guid(4401a5f717036684382960bd2b02b1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef6fc834a5a4b749f339073883d0575') in 0.033261 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-tall.obj
-  artifactKey: Guid(aab409d8f1f4c1a4b8b3e409e1cac458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-tall.obj using Guid(aab409d8f1f4c1a4b8b3e409e1cac458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e828a14cc0b9f1ecf3103b06836453e') in 0.036137 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.992974 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-yellow-high.obj
-  artifactKey: Guid(b16ffd9740922ef488d8b8d0cf861ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-yellow-high.obj using Guid(b16ffd9740922ef488d8b8d0cf861ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45633c88922b476d85d2cdca6d34f5a') in 0.029787 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.009559 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/top.obj
-  artifactKey: Guid(1aea9f0267cea7f4eb6d2a5b4eeadf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/top.obj using Guid(1aea9f0267cea7f4eb6d2a5b4eeadf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2144db6fc6207599c631212d62ebf47') in 0.025084 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 52.585776 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/arrow-basic.fbx
-  artifactKey: Guid(27e3bafc50a4bc84ab2324a672e0610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/arrow-basic.fbx using Guid(27e3bafc50a4bc84ab2324a672e0610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5b300e457b067aa4364fab98994170') in 0.050367 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-long-sides.fbx
-  artifactKey: Guid(d424c4dfaabd65b458fc80a1d475c04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-long-sides.fbx using Guid(d424c4dfaabd65b458fc80a1d475c04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0786bba36870afd44f30b7cacfd3715') in 0.072619 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/box-wide.fbx
-  artifactKey: Guid(631d7f9bc153fdd4aa0e3b423efc8576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/box-wide.fbx using Guid(631d7f9bc153fdd4aa0e3b423efc8576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2ff6236440e475d4dbd45378d96f09') in 0.045159 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-bar.fbx
-  artifactKey: Guid(75b6d37c1afd39c4db564b496782a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-bar.fbx using Guid(75b6d37c1afd39c4db564b496782a323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c94e0e2784fb11959649f8d7177de25') in 0.037830 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-stripe-sides.fbx
-  artifactKey: Guid(5a80eadcb5f9ee841b1c51329079d466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-stripe-sides.fbx using Guid(5a80eadcb5f9ee841b1c51329079d466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37290cca17ac94499eaae702ec920e5a') in 0.051623 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-stripe.fbx
-  artifactKey: Guid(3adb7d11ad6916d449471ab5921f1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-stripe.fbx using Guid(3adb7d11ad6916d449471ab5921f1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a5b16ff4202888e4343ebe088ca550') in 0.031199 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars-stripe-high.fbx
-  artifactKey: Guid(d4d614d1eb411614d81891a4151b93da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars-stripe-high.fbx using Guid(d4d614d1eb411614d81891a4151b93da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62fe816ea5ad5cbd21bbdc803945e32') in 0.056660 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars-stripe-fence.fbx
-  artifactKey: Guid(cb6a5a27a7c815d4a9b7caf3a0a1c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars-stripe-fence.fbx using Guid(cb6a5a27a7c815d4a9b7caf3a0a1c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3795343f04196edc0414043a4dcf8b') in 0.060637 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.780856 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/door-wide-open.fbx
-  artifactKey: Guid(4fe78f91c50c54140a733c7eebac2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/door-wide-open.fbx using Guid(4fe78f91c50c54140a733c7eebac2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3f39a38aa18653ea9c6bab51675811') in 0.021285 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/robot-arm-a.fbx
-  artifactKey: Guid(8900bfbab0d732e46b0b0354998163f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/robot-arm-a.fbx using Guid(8900bfbab0d732e46b0b0354998163f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ee08aba1c24eeed7000c88269d08a8') in 0.082050 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 49
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-window-wide.fbx
-  artifactKey: Guid(ee43723a626a3e2489e037617be2c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-window-wide.fbx using Guid(ee43723a626a3e2489e037617be2c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31854957ce023627c6545ed7ce0ed9da') in 0.026422 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-window.fbx
-  artifactKey: Guid(20a1c0253c9fb7f4eb139e4217b9422f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-window.fbx using Guid(20a1c0253c9fb7f4eb139e4217b9422f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb70d8dd56db6e68f6895be6a26f1fb2') in 0.027557 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/top.fbx
-  artifactKey: Guid(a5828ae1eca14d74180fd2160a66dfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/top.fbx using Guid(a5828ae1eca14d74180fd2160a66dfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191991031af21132c5fb2d8cfabfceb2') in 0.023763 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.952 seconds
+Refreshing native plugins compatible for Editor in 10.00 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <00d63564201b48698d51680c10078897>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (250ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		LoadAllAssembliesAndSetupDomain (698ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+				TypeCache.Initialize (302ms)
+					TypeCache.ScanAssembly (295ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 21.92 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (54.4 KB). Loaded Objects now: 4681.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 9.652200 ms (FindLiveObjects: 1.383900 ms CreateObjectMapping: 0.795900 ms MarkObjects: 7.234300 ms  DeleteObjects: 0.235800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

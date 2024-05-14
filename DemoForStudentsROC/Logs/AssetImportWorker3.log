@@ -15,7 +15,7 @@ D:/Repo/Pit/StudentsProject/DemoForStudentsROC
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50033
+63382
 Successfully changed project path to: D:/Repo/Pit/StudentsProject/DemoForStudentsROC
 D:/Repo/Pit/StudentsProject/DemoForStudentsROC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Repo/Pit/StudentsProject/DemoForStudentsROC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18504] Host "[IP] 192.168.68.1 [Port] 0 [Flags] 2 [Guid] 1933042418 [EditorId] 1933042418 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [42552] Host "[IP] 169.254.187.147 [Port] 0 [Flags] 2 [Guid] 4218282732 [EditorId] 4218282732 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18504] Host "[IP] 192.168.68.1 [Port] 0 [Flags] 2 [Guid] 1933042418 [EditorId] 1933042418 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [42552] Host "[IP] 169.254.187.147 [Port] 0 [Flags] 2 [Guid] 4218282732 [EditorId] 4218282732 [Version] 1048832 [Id] WindowsEditor(7,Mellys-Lapppy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 14.14 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.97 ms.
+Refreshing native plugins compatible for Editor in 11.65 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Repo/Pit/StudentsProject/DemoForStudentsROC/Assets
@@ -67,46 +67,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011453 seconds.
-- Loaded All Assemblies, in  0.335 seconds
+Registered in 0.017121 seconds.
+- Loaded All Assemblies, in  0.392 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 285 ms
+Android Extension - Scanning For ADB Devices 358 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.621 seconds
+- Finished resetting the current domain, in  0.680 seconds
 Domain Reload Profiling:
-	ReloadAssembly (188ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (227ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (74ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
-				TypeCache.Initialize (135ms)
-					TypeCache.ScanAssembly (133ms)
+			SetupTypeCache (155ms)
+				TypeCache.Initialize (154ms)
+					TypeCache.ScanAssembly (152ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (565ms)
+			SetupLoadedEditorAssemblies (617ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (373ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (465ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Repo\Pit\StudentsProject\DemoForStudentsROC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.836 seconds
-Refreshing native plugins compatible for Editor in 7.55 ms, found 12 plugins.
+- Loaded All Assemblies, in  1.033 seconds
+Refreshing native plugins compatible for Editor in 6.62 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -147,44 +147,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.597 seconds
+- Finished resetting the current domain, in  0.660 seconds
 Domain Reload Profiling:
-	ReloadAssembly (209ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (246ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		LoadAllAssembliesAndSetupDomain (625ms)
-			LoadAssemblies (244ms)
+			CreateAndSetChildDomain (25ms)
+		LoadAllAssembliesAndSetupDomain (782ms)
+			LoadAssemblies (349ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
-				TypeCache.Initialize (281ms)
-					TypeCache.ScanAssembly (276ms)
-				ResolveRequiredComponents (4ms)
+			SetupTypeCache (499ms)
+				TypeCache.Initialize (329ms)
+					TypeCache.ScanAssembly (322ms)
+				ResolveRequiredComponents (5ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (417ms)
+			SetupLoadedEditorAssemblies (472ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 6.63 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4152 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (53.9 KB). Loaded Objects now: 4647.
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 13.59 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (53.8 KB). Loaded Objects now: 4649.
 Memory consumption went from 0.64 GB to 0.64 GB.
-Total: 4.916700 ms (FindLiveObjects: 0.722300 ms CreateObjectMapping: 0.400400 ms MarkObjects: 3.688000 ms  DeleteObjects: 0.103100 ms)
+Total: 9.837700 ms (FindLiveObjects: 1.148300 ms CreateObjectMapping: 0.840200 ms MarkObjects: 7.403900 ms  DeleteObjects: 0.442500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -198,190 +198,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4352.867082 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/door-wide-closed.obj
-  artifactKey: Guid(712bb185299b4e1449d32fb28f4a8b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/door-wide-closed.obj using Guid(712bb185299b4e1449d32fb28f4a8b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d8037cca1a3301ef1b210b2a45f0f8') in 0.182564 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.616612 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/scanner-low.obj
-  artifactKey: Guid(5be04585226cde34fb0be39a6fede1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/scanner-low.obj using Guid(5be04585226cde34fb0be39a6fede1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deed6130af5c01b7f127fdf840b194df') in 0.040924 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-corner-inner.obj
-  artifactKey: Guid(234e042bbcab544449baa90bcf989cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-corner-inner.obj using Guid(234e042bbcab544449baa90bcf989cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72ad8fd20d5462af0405c3206ecdd8d') in 0.033860 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-medium.obj
-  artifactKey: Guid(94cbe6efe69515a4f83059ad4afd3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-medium.obj using Guid(94cbe6efe69515a4f83059ad4afd3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9433947f4fdb4bae6281277815f9178') in 0.035802 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-doorway.obj
-  artifactKey: Guid(5303065870d5a354f8326bca4611153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-doorway.obj using Guid(5303065870d5a354f8326bca4611153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108cfaa6b5720d8a4112dd7042de9e80') in 0.030349 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-window.obj
-  artifactKey: Guid(5f1a0cb457a03b34c98f7655abc67c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-window.obj using Guid(5f1a0cb457a03b34c98f7655abc67c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0521d19ca82de92af6af7f75f860cca0') in 0.035946 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 1.003857 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-yellow-short.obj
-  artifactKey: Guid(59d51a793ec473344bfe6703cccfc459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/OBJ format/structure-yellow-short.obj using Guid(59d51a793ec473344bfe6703cccfc459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8899187c8247d64a0ba01f7fa320a7') in 0.030072 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 52.622428 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/box-long.fbx
-  artifactKey: Guid(61336401447ab6b4f8caf96dcdf54eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/box-long.fbx using Guid(61336401447ab6b4f8caf96dcdf54eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc7435b6c27a6d9f4813772297091f8') in 0.052330 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-corner.fbx
-  artifactKey: Guid(48fc936c979c4e948838bfec92b43fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-corner.fbx using Guid(48fc936c979c4e948838bfec92b43fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eba5f9e5a667085de8fdfe752e9f3f4') in 0.043747 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-long-stripe-sides.fbx
-  artifactKey: Guid(11fe1669033a47f4895aee4632bf5294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-long-stripe-sides.fbx using Guid(11fe1669033a47f4895aee4632bf5294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb89591656225277c7dc7e06c3b296d') in 0.067926 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/door.fbx
-  artifactKey: Guid(b48926e74fe0fa04a8e7f536a5a219ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/door.fbx using Guid(b48926e74fe0fa04a8e7f536a5a219ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff2a4cf04cc89b41c09e8cc3991cbd4') in 0.037579 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-stripe-hopper.fbx
-  artifactKey: Guid(caeac4795c614f046a11fe2d1059861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-stripe-hopper.fbx using Guid(caeac4795c614f046a11fe2d1059861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b975ff3e59ac1f79464e35585da1233') in 0.033278 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/door-wide-closed.fbx
-  artifactKey: Guid(05812ee3d81dc2e41bff34c6c6d6ad61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/door-wide-closed.fbx using Guid(05812ee3d81dc2e41bff34c6c6d6ad61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03eaf68fc0dfc6d804865577431b8ba8') in 0.032948 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-stripe-top.fbx
-  artifactKey: Guid(86357d3158c4c3f44a69b11c91c2a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/cover-stripe-top.fbx using Guid(86357d3158c4c3f44a69b11c91c2a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af09361c89d66c80145037e22e81ca7') in 0.031054 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars.fbx
-  artifactKey: Guid(4027cbed3191109428992d8fe55536d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars.fbx using Guid(4027cbed3191109428992d8fe55536d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3478708a87b10ec55ec90c1316a369e1') in 0.035725 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars-stripe-side.fbx
-  artifactKey: Guid(65b4fd5461a1544409ddd7a836e13552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/conveyor-bars-stripe-side.fbx using Guid(65b4fd5461a1544409ddd7a836e13552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868f65a13517ba766f7bc86a151d65fa') in 0.049104 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.800559 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/floor-large.fbx
-  artifactKey: Guid(ca871217bbc5b9744bd3d8e68066750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/floor-large.fbx using Guid(ca871217bbc5b9744bd3d8e68066750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76542f385160411cc2a1bf4a040a5531') in 0.026660 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-corner-inner.fbx
-  artifactKey: Guid(e5bf5acaa262f584bb6b9182cb514074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-corner-inner.fbx using Guid(e5bf5acaa262f584bb6b9182cb514074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd198efe4d7a5e46580333087363879') in 0.024032 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.004716 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-doorway.fbx
-  artifactKey: Guid(71cf89a1bbbc20e47ab0cd80e3b43ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-doorway.fbx using Guid(71cf89a1bbbc20e47ab0cd80e3b43ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc1cfe11dff82f928ce2df7489d075f') in 0.025287 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-doorway-wide.fbx
-  artifactKey: Guid(0a2414b38e3646f4da71e29de1314957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-doorway-wide.fbx using Guid(0a2414b38e3646f4da71e29de1314957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639619f9e0fc858630ffcc1560dcfb78') in 0.023157 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-yellow-short.fbx
-  artifactKey: Guid(6a33f44de2870a04fa5656193e93dfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-yellow-short.fbx using Guid(6a33f44de2870a04fa5656193e93dfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77edd21661a63493de013093fcdbf82a') in 0.027300 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/top-large.fbx
-  artifactKey: Guid(656477ee840b1e242a1369de92069ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/top-large.fbx using Guid(656477ee840b1e242a1369de92069ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a0e61f6a6ca7c47a81493a9f13cda8') in 0.024266 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-yellow-high.fbx
-  artifactKey: Guid(527ea744dc3038d47ac7b427cd1cd2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KEnny.NL/kenney_conveyor-kit/Models/FBX format/structure-yellow-high.fbx using Guid(527ea744dc3038d47ac7b427cd1cd2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8d011d51e77f4d610a4d049e63b4de') in 0.023366 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
