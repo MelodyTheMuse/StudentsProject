@@ -385,9 +385,11 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/CorrectPicture.cs"
 "Assets/DisableBoxCollOnGrab.cs"
 "Assets/FixPictureToHangingPoint.cs"
 "Assets/Scripts/Random Useful Scripts/CharacterControllerHMDUpdater.cs"
+"Assets/WhichPicture.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 
