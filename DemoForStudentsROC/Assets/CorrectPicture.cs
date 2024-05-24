@@ -79,33 +79,8 @@ public class CorrectPicture : MonoBehaviour
     //    Debug.Log("STOP YOU HAVE VIOLATED THE LAW");
     //}
 
-    void StartRandom()
-    {
-        Debug.Log("We started");
-        int maxPictures = pictures.Count;
-        int maxHangers = hangers.Count;
-
-        if (maxPictures < maxHangers)
-        {
-            Debug.LogError("Not enough pictures to fill all hangers.");
-            return;
-        }
-
-        while (i < maxHangers)
-        {
-            Debug.Log("Inside the while");
-            Randomizer();
-            i++;
-        }
-    }
-
-    void Randomizer()
-    {
-        Debug.Log("RandomStart");
+   
     
-
-
-    }
     bool Rando()
     {
         randompicture = Random.Range(0, pictures.Count);
@@ -125,16 +100,6 @@ public class CorrectPicture : MonoBehaviour
     }
 }
 
-    //void StartRandom()
-    //{
-    //    Debug.Log("We started");
-    //    int max = pictures.Count();
-    //    while (i < 4)
-    //    {
-    //        Debug.Log("Inside the while");
-    //        Randomizer();
-    //        i++;
-    //    }
-    //}
+   
 
 

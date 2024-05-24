@@ -1,14 +1,14 @@
-#Thu Mar 28 15:14:10 CET 2024
+#Fri May 17 11:49:58 CEST 2024
 path.4=10/classes.dex
 path.3=0/classes.dex
 path.2=5/classes.dex
 path.1=1/classes.dex
 path.0=classes.dex
-base.4=D\:\\Unity\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=D\:\\Unity\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\Unity\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\5\\classes.dex
-base.1=D\:\\Unity\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\1\\classes.dex
-base.0=D\:\\Unity\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=D\:\\Repo\\Pit\\StudentsProject\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=D\:\\Repo\\Pit\\StudentsProject\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\Repo\\Pit\\StudentsProject\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\5\\classes.dex
+base.1=D\:\\Repo\\Pit\\StudentsProject\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\1\\classes.dex
+base.0=D\:\\Repo\\Pit\\StudentsProject\\DemoForStudentsROC\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

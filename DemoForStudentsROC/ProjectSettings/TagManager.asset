@@ -15,8 +15,8 @@ TagManager:
   - StopDrawer
   - Floor
   - Walls
-  - 
-  - 
+  - Inactive
+  - Passed
   - 
   - 
   - 

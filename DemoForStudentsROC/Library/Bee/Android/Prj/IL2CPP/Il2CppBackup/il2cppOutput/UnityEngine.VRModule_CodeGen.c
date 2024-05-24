@@ -12,26 +12,23 @@
 
 
 
-extern void XRDevice_SetTrackingSpaceType_m8A35E391EF1DA72CD9091C137C384F31FF23530B (void);
 extern void XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52 (void);
 extern void XRDevice_InvokeDeviceLoaded_mBE2198DE44A72E2F5059566C46B9907D82782790 (void);
-static Il2CppMethodPointer s_methodPointers[3] = 
+static Il2CppMethodPointer s_methodPointers[2] = 
 {
-	XRDevice_SetTrackingSpaceType_m8A35E391EF1DA72CD9091C137C384F31FF23530B,
 	XRDevice_DisableAutoXRCameraTracking_m1243FCAD2AC9C4D5C2E551255A1B2BA266E12A52,
 	XRDevice_InvokeDeviceLoaded_mBE2198DE44A72E2F5059566C46B9907D82782790,
 };
-static const int32_t s_InvokerIndices[3] = 
+static const int32_t s_InvokerIndices[2] = 
 {
-	7653,
-	7444,
-	8011,
+	8002,
+	8605,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule = 
 {
 	"UnityEngine.VRModule.dll",
-	3,
+	2,
 	s_methodPointers,
 	0,
 	NULL,

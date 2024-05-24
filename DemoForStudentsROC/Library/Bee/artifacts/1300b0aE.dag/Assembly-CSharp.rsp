@@ -388,7 +388,10 @@
 "Assets/CorrectPicture.cs"
 "Assets/DisableBoxCollOnGrab.cs"
 "Assets/FixPictureToHangingPoint.cs"
+"Assets/Hint.cs"
 "Assets/Scripts/Random Useful Scripts/CharacterControllerHMDUpdater.cs"
+"Assets/SpawningPicturesOnPoints.cs"
+"Assets/SwitchCaseHandler.cs"
 "Assets/WhichPicture.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0

@@ -7,22 +7,20 @@ public class CharacterControllerHMDUpdater : MonoBehaviour
 {
     public float gravity = 1f;
 
-    private XROrigin _xrRig;
-    private CharacterController _characterController;
-    private CharacterControllerDriver _driver;
+   [SerializeField] private XROrigin _xrRig;
+    [SerializeField] private CharacterController _characterController;
+    [SerializeField] private CharacterControllerDriver _driver;
 
     private bool _climbing = false;
     // Start is called before the first frame update
     void Start()
     {
-        _xrRig = GetComponent<XROrigin>();
-        _characterController = GetComponent<CharacterController>();
-        _driver = GetComponent<CharacterControllerDriver>();
 
+        UpdateXRrig();
 
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
        UpdateCharacterController();
     }
@@ -31,7 +29,7 @@ public class CharacterControllerHMDUpdater : MonoBehaviour
     {
         if (_xrRig == null || _characterController == null)
             return;
-
+        UpdateXRrig();
         var height = Mathf.Clamp(_xrRig.CameraInOriginSpaceHeight, _driver.minHeight, _driver.maxHeight);
 
         Vector3 center = _xrRig.CameraInOriginSpacePos;
@@ -39,6 +37,14 @@ public class CharacterControllerHMDUpdater : MonoBehaviour
 
         _characterController.height = height;
         _characterController.center = center;
+        
+    }
+
+    void UpdateXRrig()
+    {
+        _xrRig = GetComponent<XROrigin>();
+        _characterController = GetComponent<CharacterController>();
+        _driver = GetComponent<CharacterControllerDriver>();
     }
 
 }

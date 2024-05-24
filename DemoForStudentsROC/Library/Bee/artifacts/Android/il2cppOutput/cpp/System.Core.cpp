@@ -2795,7 +2795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugViewWriter_WriteLine_mAD23CC084D231
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_0 = __this->____out_0;
 		NullCheck(L_0);
-		VirtualActionInvoker0::Invoke(13, L_0);
+		VirtualActionInvoker0::Invoke(14, L_0);
 		__this->____column_1 = 0;
 		return;
 	}
@@ -2806,7 +2806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugViewWriter_Write_m3E7ACA1062A8C9466
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_0 = __this->____out_0;
 		String_t* L_1 = ___0_s;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(12, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(13, L_0, L_1);
 		int32_t L_2 = __this->____column_1;
 		String_t* L_3 = ___0_s;
 		NullCheck(L_3);

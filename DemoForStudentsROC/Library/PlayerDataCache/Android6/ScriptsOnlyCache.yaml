@@ -4,6 +4,9 @@ ScriptsOnlyBuild:
     - CharacterControllerHMDUpdater
     - CorrectPicture
     - FixPictureToHangingPoint
+    - Hint
+    - SpawningPicturesOnPoints
+    - SwitchCaseHandler
     - Unity.Template.VR.XRPlatformControllerSetup
     - WhichPicture
     Unity.InputSystem.dll:
@@ -48,11 +51,11 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
     Unity.XR.Oculus.dll:
-    - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
@@ -170,53 +173,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1934}
+      Script: {instanceID: 1960}
     - Class: 114
-      Script: {instanceID: 2056}
+      Script: {instanceID: 2082}
     - Class: 114
-      Script: {instanceID: 2544}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 3426}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3682}
+      Script: {instanceID: 3454}
     - Class: 114
-      Script: {instanceID: 4188}
+      Script: {instanceID: 3710}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4216}
     - Class: 114
-      Script: {instanceID: 4558}
+      Script: {instanceID: 4326}
     - Class: 114
-      Script: {instanceID: 4564}
+      Script: {instanceID: 4586}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4592}
     - Class: 114
-      Script: {instanceID: 4746}
+      Script: {instanceID: 4668}
     - Class: 114
-      Script: {instanceID: 5078}
+      Script: {instanceID: 4774}
     - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 5106}
     - Class: 114
-      Script: {instanceID: 5374}
+      Script: {instanceID: 5132}
     - Class: 114
-      Script: {instanceID: 5404}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 5432}
     - Class: 114
-      Script: {instanceID: 6922}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 7356}
+      Script: {instanceID: 6950}
     - Class: 114
-      Script: {instanceID: 8172}
+      Script: {instanceID: 7384}
     - Class: 114
-      Script: {instanceID: 8278}
+      Script: {instanceID: 7624}
     - Class: 114
-      Script: {instanceID: 8456}
+      Script: {instanceID: 8202}
     - Class: 114
-      Script: {instanceID: 9028}
+      Script: {instanceID: 8308}
     - Class: 114
-      Script: {instanceID: 9636}
+      Script: {instanceID: 8486}
     - Class: 114
-      Script: {instanceID: 10046}
+      Script: {instanceID: 9058}
+    - Class: 114
+      Script: {instanceID: 9666}
+    - Class: 114
+      Script: {instanceID: 9722}
+    - Class: 114
+      Script: {instanceID: 10078}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -446,6 +455,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3111ef9adab8360260390329d5b3e769
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpawningPicturesOnPoints
   - hash:
       serializedVersion: 2
       Hash: bcdedb1b3a567eb05111be4716618ce1
@@ -1210,6 +1225,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: d3035a880fedcf00a55e7400bba5c039
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SwitchCaseHandler
+  - hash:
+      serializedVersion: 2
       Hash: 74e434e4835baef8b70eb603835b6e61
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -1610,6 +1631,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: TrackedDeviceGraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f15637f9aa8ce2e1f657f7e24a5f5ef1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Hint
   - hash:
       serializedVersion: 2
       Hash: 3959748dfe434297e37b19650fd73710

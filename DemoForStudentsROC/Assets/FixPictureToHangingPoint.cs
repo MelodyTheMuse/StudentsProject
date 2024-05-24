@@ -22,11 +22,13 @@ public class FixPictureToHangingPoint : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.transform.tag == "HaningPoint" && collision.gameObject.GetComponent<WhichPicture>().picture == this.gameObject)
+        if(collision.transform.tag == "HaningPoint" && collision.gameObject.GetComponent<WhichPicture>().picture == this.gameObject &&collision.gameObject.layer == this.gameObject.layer)
         {
             
             fixedJoint =this.gameObject.AddComponent<FixedJoint>();
             fixedJoint.connectedBody = collision.rigidbody;
+            collision.gameObject.GetComponent<SwitchCaseHandler>().passed = true;
+            collision.gameObject.GetComponent<SwitchCaseHandler>().activeLevel = 3;
         }
     }
 
