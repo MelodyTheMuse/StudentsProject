@@ -6,8 +6,8 @@ using UnityEngine;
 public class WhichPicture : MonoBehaviour
 {
     [SerializeField] public GameObject picture;
-    List<GameObject> gameObjects = new List<GameObject>();
     bool colourChanged = false;
+    [SerializeField] bool Debuging = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +17,8 @@ public class WhichPicture : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!colourChanged && picture != null)
+        //this is used to debug test the puzzle, to see if the pictures get assigend correctly
+        if (!colourChanged && picture != null &&Debuging)
         {
             Material mat = picture.GetComponentInChildren<MeshRenderer>().material;
             mat.color = this.GetComponentInChildren<MeshRenderer>().material.color;

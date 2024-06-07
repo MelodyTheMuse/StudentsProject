@@ -376,7 +376,9 @@
           },
           {
             "name": "Sprite",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/ModelWorkshop.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -388,7 +390,9 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/ModelWorkshop.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

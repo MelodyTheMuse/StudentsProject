@@ -16,7 +16,7 @@ public class CharacterControllerHMDUpdater : MonoBehaviour
     void Start()
     {
 
-        UpdateXRrig();
+        
 
     }
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class CharacterControllerHMDUpdater : MonoBehaviour
         Vector3 center = _xrRig.CameraInOriginSpacePos;
         center.y = height/3f + _characterController.skinWidth;
 
-        _characterController.height = height;
+        //_characterController.height = height;
         _characterController.center = center;
         
     }

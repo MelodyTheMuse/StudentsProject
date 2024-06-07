@@ -9,14 +9,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Interaction
+  - Passed
   - Water
   - UI
-  - StopDrawer
+  - Interaction
   - Floor
   - Walls
   - Inactive
-  - Passed
+  - StopDrawer
   - 
   - 
   - 
