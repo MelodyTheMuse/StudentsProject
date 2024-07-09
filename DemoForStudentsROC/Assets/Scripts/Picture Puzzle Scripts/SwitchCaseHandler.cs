@@ -13,6 +13,9 @@ public class SwitchCaseHandler : MonoBehaviour
     int inactiveLayer = 9;
     int passedLayer = 3;
     [SerializeField] TextMeshPro hintText;
+    [SerializeField] GameObject PuzzleObj;
+    int BtnIndexList =0;
+    [SerializeField] GameObject SBTGNS;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,14 @@ public class SwitchCaseHandler : MonoBehaviour
                     this.GetComponent<WhichPicture>().picture.layer = passedLayer;
                     this.interactable = false;
                     if (nextHanger != null) { nextHanger.GetComponent<SwitchCaseHandler>().activeLevel = 2; }
+                    else
+                    {
+                        Debug.Log($"SBTGNS: {SBTGNS.name}");
+                        Debug.Log($"PuzzleObj: {PuzzleObj.name}");
+                        Debug.Log($"Component: {SBTGNS.GetComponent<ShowButtonToGoNextScene>().name}");
+                        BtnIndexList = SBTGNS.GetComponent<ShowButtonToGoNextScene>().FindIndex(PuzzleObj.gameObject) -1;
+                        SBTGNS.GetComponent<ShowButtonToGoNextScene>().EnablePuzzleBool(BtnIndexList);
+                    }
                     
                     
                 }
@@ -61,5 +72,8 @@ public class SwitchCaseHandler : MonoBehaviour
                 break;
         }
 
+        
+
     }
+  
 }
