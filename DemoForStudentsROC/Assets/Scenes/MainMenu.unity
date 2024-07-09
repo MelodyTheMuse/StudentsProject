@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -905,10 +905,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Button to continue '
       objectReference: {fileID: 0}
+    - target: {fileID: 8670731112328487216, guid: 94a9bd09d1cfc4949ba3e6b1a270cc42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1722837136605798128, guid: 94a9bd09d1cfc4949ba3e6b1a270cc42,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 94a9bd09d1cfc4949ba3e6b1a270cc42, type: 3}
 --- !u!1 &406417924
 GameObject:

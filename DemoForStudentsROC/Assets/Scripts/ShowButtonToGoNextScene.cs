@@ -1,23 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 
 public class ShowButtonToGoNextScene : MonoBehaviour
 {
 
     [SerializeField] GameObject Button;
-    [SerializeField] List<bool>puzzlebools = new List<bool>();
-    [SerializeField] List<GameObject> puzzles = new List<GameObject>();
-    public static ShowButtonToGoNextScene Instance;
+    Dictionary<GameObject, bool> Puzzles = new Dictionary<GameObject, bool>();
+    [SerializeField] List<GameObject> PuzzleObjects = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
-        int value = puzzles.Count;
-        puzzlebools.Clear ();
-        for (int i = 0; i < value; i++)
-        {
-            puzzlebools.Add (false);
-        }
+
+        Puzzles.Clear();
+        FillDictionary();
+
     }
    
     // Update is called once per frame
@@ -28,37 +26,46 @@ public class ShowButtonToGoNextScene : MonoBehaviour
             Button.SetActive (true);
         }
     }
-    public  void EnablePuzzleBool(int index) => puzzlebools[index] = true;
-    public  int FindIndex(GameObject NameOfPuzzle)
+  
+    public bool DictionarySetBoolToTrueForPuzzleObject(GameObject puzzle)
     {
-        for(int i = 0; i >= puzzles.Count; i++)
+        foreach (GameObject obj in Puzzles.Keys)
         {
-            if (puzzles[i] == NameOfPuzzle)
+            if (obj == puzzle)
             {
-                return i;
-            }
-        }
-        return -1;
-    }
-
-    private bool CheckBools()
-    {
-        int I = 0;
-        foreach(bool puzzle in puzzlebools) 
-        {
-
-            if (I == puzzlebools.Count)
-            {
+                Puzzles[obj] = true;
                 return true;
             }
-            if(puzzle == true)
-            {
-                I++;
-            }
-           
         }
-       
         return false;
+    }
+    private bool CheckBools()
+    {
+      int i = 0;
+        foreach (GameObject obj in Puzzles.Keys)
+        {
+ 
+         if (Puzzles[obj] == true)
+         {
+            i++;
+         }
+        }
+        if (i == Puzzles.Count)
+        {
+            return true;
+        }
+
+        return false;
+       
+    }
+
+    private void FillDictionary()
+    {
+        foreach (var k in PuzzleObjects) 
+        { 
+            Puzzles.Add(k, false);
+        
+        }
     }
     
       

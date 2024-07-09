@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   nextHanger: {fileID: 0}
   hintText: {fileID: 1835213521}
   PuzzleObj: {fileID: 2024147755}
-  SBTGNS: {fileID: 1705167400}
+  GameController: {fileID: 1705167400}
 --- !u!1001 &232629737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3216,7 +3216,6 @@ GameObject:
   m_Component:
   - component: {fileID: 672265065}
   - component: {fileID: 672265064}
-  - component: {fileID: 672265063}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3224,14 +3223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &672265063
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672265062}
-  m_Enabled: 1
 --- !u!20 &672265064
 Camera:
   m_ObjectHideFlags: 0
@@ -7448,7 +7439,7 @@ MonoBehaviour:
   nextHanger: {fileID: 1970141757}
   hintText: {fileID: 1835213521}
   PuzzleObj: {fileID: 0}
-  SBTGNS: {fileID: 0}
+  GameController: {fileID: 0}
 --- !u!1001 &1673672117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7779,8 +7770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 33465253}
-  puzzlebools: 
-  puzzles:
+  PuzzleObjects:
   - {fileID: 2024147755}
 --- !u!1 &1768057218
 GameObject:
@@ -8483,7 +8473,7 @@ MonoBehaviour:
   nextHanger: {fileID: 209389825}
   hintText: {fileID: 1835213521}
   PuzzleObj: {fileID: 0}
-  SBTGNS: {fileID: 0}
+  GameController: {fileID: 0}
 --- !u!1 &1970141757
 GameObject:
   m_ObjectHideFlags: 0
@@ -8600,7 +8590,7 @@ MonoBehaviour:
   nextHanger: {fileID: 1893028949}
   hintText: {fileID: 1835213521}
   PuzzleObj: {fileID: 0}
-  SBTGNS: {fileID: 0}
+  GameController: {fileID: 0}
 --- !u!1 &1975224503
 GameObject:
   m_ObjectHideFlags: 0

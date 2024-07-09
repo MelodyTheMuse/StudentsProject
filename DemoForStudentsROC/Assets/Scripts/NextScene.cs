@@ -10,7 +10,7 @@ public class NextScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ss = FindAnyObjectByType<ListKeeper>();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class NextScene : MonoBehaviour
     {
         if (picturePuzzleFinished)
         {
-            ListKeeper.Instance.NextScene();
+            ss.NextScene();
         }
     }
 }
